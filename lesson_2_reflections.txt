@@ -19,10 +19,19 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches - pomog¹ w testowaniu nowych funkcji programu, w tworzeniu wiekszego ci¹gu commitów niezale¿nego od ga³êzi g³ównej
+
 How do the diagrams help you visualize the branch structure?
+
+	£atwiej zrozumieæ jakie ga³êzie i kiedy powstawa³y, wiêc jak planowaæ ich poŸniejsze ³¹czenie.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Po³¹czenie tworzy wpisanie zmian pliku tworzonych niezale¿nie do jednego pliku
+	Reprezentacja w diagramie pokazuje, ¿e dany commit zaiwera odnoœniki do obu wczeœniejszych commitów, które zosta³y po³¹czone.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Automatyczne po³¹czenia oszczêdzaj¹ czas. Reczne po³¹czenia pozwalaj¹ unikn¹æ pewnych b³êdów, ale wymagaj¹ wiêcej czasu na przeprowadzenie
